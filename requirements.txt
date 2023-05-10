@@ -1,1 +1,3 @@
-# Place your requirements here
+pyrogram 
+subprocess.run
+tgcrypto
