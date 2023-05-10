@@ -1,3 +1,8 @@
 pyrogram 
 subprocess.run
 tgcrypto
+coloredlogs
+pillow
+watchdog
+pydub
+requests
