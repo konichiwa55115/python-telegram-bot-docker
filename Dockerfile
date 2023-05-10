@@ -12,6 +12,7 @@ ENV PIP_DEFAULT_TIMEOUT=100
 ENV TELEGRAM_TOKEN ${TELEGRAM_TOKEN}
 
 RUN apt-get update
+RUN apt-get install ffmpeg -y
 RUN apt-get install -y python3 python3-pip python-dev build-essential python3-venv
 
 RUN mkdir -p /codebase /storage
